@@ -13,6 +13,7 @@ using Microsoft.EntityFrameworkCore;
 using qwerty1.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using qwerty1.Models;
 
 namespace qwerty1
 {
@@ -38,6 +39,12 @@ namespace qwerty1
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddDbContext<CrudOpContext>(options =>
+               options.UseSqlServer(
+                   Configuration.GetConnectionString("mycs")));
+
+
             services.AddDefaultIdentity<IdentityUser>()
                 .AddDefaultUI(UIFramework.Bootstrap4)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
