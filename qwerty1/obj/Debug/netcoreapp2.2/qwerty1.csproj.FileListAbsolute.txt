@@ -30,5 +30,5 @@ C:\Users\abdul jabbar\source\repos\AbdulJabbar11\CrudOperation\qwerty1\obj\Debug
 C:\Users\abdul jabbar\source\repos\AbdulJabbar11\CrudOperation\qwerty1\obj\Debug\netcoreapp2.2\qwerty1.dll
 C:\Users\abdul jabbar\source\repos\AbdulJabbar11\CrudOperation\qwerty1\obj\Debug\netcoreapp2.2\qwerty1.pdb
 C:\Users\abdul jabbar\source\repos\AbdulJabbar11\CrudOperation\qwerty1\obj\Debug\netcoreapp2.2\qwerty1.csproj.CopyComplete
-C:\Users\abdul jabbar\source\repos\AbdulJabbar11\CrudOperation\qwerty1\obj\Debug\netcoreapp2.2\Razor\Views\AddNewAirline\AddNewAirline.g.cshtml.cs
-C:\Users\abdul jabbar\source\repos\AbdulJabbar11\CrudOperation\qwerty1\obj\Debug\netcoreapp2.2\Razor\Views\AllAirlines\AllAirlines.g.cshtml.cs
+C:\Users\abdul jabbar\source\repos\AbdulJabbar11\CrudOperation\qwerty1\obj\Debug\netcoreapp2.2\Razor\Views\Airline\AddNewAirline.g.cshtml.cs
+C:\Users\abdul jabbar\source\repos\AbdulJabbar11\CrudOperation\qwerty1\obj\Debug\netcoreapp2.2\Razor\Views\Airline\AllAirline.g.cshtml.cs

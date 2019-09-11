@@ -37,9 +37,8 @@ namespace qwerty1.Controllers
             }
             return View();
         }
-        public IActionResult AllAirlines(Airline A)
+       public IActionResult AllAirline()
         {
-
             return View(orm.Airline.ToList());
         }
        
