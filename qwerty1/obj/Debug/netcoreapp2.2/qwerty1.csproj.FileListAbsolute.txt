@@ -32,3 +32,10 @@ C:\Users\abdul jabbar\source\repos\AbdulJabbar11\CrudOperation\qwerty1\obj\Debug
 C:\Users\abdul jabbar\source\repos\AbdulJabbar11\CrudOperation\qwerty1\obj\Debug\netcoreapp2.2\qwerty1.csproj.CopyComplete
 C:\Users\abdul jabbar\source\repos\AbdulJabbar11\CrudOperation\qwerty1\obj\Debug\netcoreapp2.2\Razor\Views\Airline\AddNewAirline.g.cshtml.cs
 C:\Users\abdul jabbar\source\repos\AbdulJabbar11\CrudOperation\qwerty1\obj\Debug\netcoreapp2.2\Razor\Views\Airline\AllAirline.g.cshtml.cs
+C:\Users\abdul jabbar\source\repos\AbdulJabbar11\CrudOperation\qwerty1\obj\Debug\netcoreapp2.2\Razor\Views\Airline\EditAirline.g.cshtml.cs
+C:\Users\abdul jabbar\source\repos\AbdulJabbar11\CrudOperation\qwerty1\obj\Debug\netcoreapp2.2\Razor\Views\Airline\ViewAirlineDetail.g.cshtml.cs
+C:\Users\abdul jabbar\source\repos\AbdulJabbar11\CrudOperation\qwerty1\obj\Debug\netcoreapp2.2\Razor\Views\Flights\Create.g.cshtml.cs
+C:\Users\abdul jabbar\source\repos\AbdulJabbar11\CrudOperation\qwerty1\obj\Debug\netcoreapp2.2\Razor\Views\Flights\Delete.g.cshtml.cs
+C:\Users\abdul jabbar\source\repos\AbdulJabbar11\CrudOperation\qwerty1\obj\Debug\netcoreapp2.2\Razor\Views\Flights\Details.g.cshtml.cs
+C:\Users\abdul jabbar\source\repos\AbdulJabbar11\CrudOperation\qwerty1\obj\Debug\netcoreapp2.2\Razor\Views\Flights\Edit.g.cshtml.cs
+C:\Users\abdul jabbar\source\repos\AbdulJabbar11\CrudOperation\qwerty1\obj\Debug\netcoreapp2.2\Razor\Views\Flights\Index.g.cshtml.cs

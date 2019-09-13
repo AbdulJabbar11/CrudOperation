@@ -1,33 +1,18 @@
 ﻿@model qwerty1.Models.Airline
 
 @{
-    ViewData["Title"] = "AddNewAirline";
+    ViewData["Title"] = "EditAirline";
 }
 
-<h1>AddNewAirline</h1>
+<h1>EditAirline</h1>
 
-@{
-
-    if (!String.IsNullOrEmpty(ViewBag.Message))
-
-    {
-        if (ViewBag.Messagetype == "S")
-        {
-            <h4 class=" alert alert-success"><i class="fa fa-check" aria-hidden="true"></i>@ViewBag.Message</h4>
-        }
-        if (ViewBag.Messagetype == "E")
-        {
-            <h4 class=" alert alert-danger"><i class="fa fa-times" aria-hidden="true"></i>@ViewBag.Message</h4>
-        }
-    }
-}
-
-
+<h4>Airline</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="AddNewAirline">
+        <form asp-action="EditAirline">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
             <div class="form-group">
                 <label asp-for="Name" class="control-label"></label>
                 <input asp-for="Name" class="form-control" />
@@ -54,30 +39,16 @@
                 <span asp-validation-for="ShortCode" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a href="/airline/allairline" class=" btn btn-lg btn-success">Back to List</a>
+    <a asp-action="Index">Back to List</a>
 </div>
 
-@section  scripts{
-
-<script>
-    $(function () {
-
-        $('h4').fadeOut(5000);
-
-
-
-
-
-
-    });
-
-
-</script>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

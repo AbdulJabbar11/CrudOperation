@@ -41,7 +41,37 @@ namespace qwerty1.Controllers
         {
             return View(orm.Airline.ToList());
         }
-       
+
+        public IActionResult DeleteAirline(int id)
+        {
+            var A = orm.Airline.Find(id);
+            orm.Airline.Remove(A);
+            orm.SaveChanges();
+
+            return RedirectToAction("AllAirline");
+        }
+
+        [HttpGet]
+        public IActionResult EditAirline(int id)
+        {
+            var A = orm.Airline.Find(id);
+            return View(A);
+        }
+
+        [HttpPost]
+        public IActionResult EditAirline(Airline A)
+        {
+            orm.Airline.Update(A);
+            orm.SaveChanges();
+            return RedirectToAction("AllAirline");
+
+        }
+
+        public IActionResult ViewAirlineDetail(int id)
+        {
+            return View(orm.Airline.Find(id));
+        }
+
 
     }
 }
